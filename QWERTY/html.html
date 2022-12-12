@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Open Site</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="showcase">
+        <header>
+            <h2 class="logo">Prosper All Foods</h2>
+            <div class="toggle"></div>
+        </header>
+
+        <video src="Img/Video.mp4" muted loop autoplay></video>
+
+        <div class="overlay"></div>
+
+        <div class="text">
+            <h2>Next Level</h2>
+<h3>Of cures and and</h3>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla harum dolor aperiam officiis soluta dolorem libero! Ex architecto voluptas illo.
+</p>
+<a href="#">SIKE</a>
+        </div>
+<ul class="social">
+    <li><a href="#"><img width="50px" src="Img/FB.png" alt=""></a></li>
+    <li><a href=""><img width="50px" src="Img/T.png" alt=""></a></li>
+    <li><a href=""><img width="50px" src="Img/IG.png" alt=""></a></li>
+</ul>
+    </section>
+
+    <div class="menu">
+<ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">GET</a></li>
+    <li><a href="#">AWE</a></li>
+    <li><a href="#">POU</a></li>
+    <li><a href="#">LIO</a></li>
+</ul>
+    </div>
+    <script>
+        const menuToggle = document.querySelector('.toggle')
+        const showcase = document.querySelector('.showcase')
+         menuToggle.addEventListener('click', () => {
+menuToggle.classList.toggle('active')
+showcase.classList.toggle('active')
+         })
+        </script>
+</body>
+</html>
